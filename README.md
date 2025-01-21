@@ -25,7 +25,7 @@ A beautiful and interactive command-line tool for counting tokens in text and CS
 ## Cursed-Beautiful Features You Didn't Ask For
 - 👁️ Demon KITTY is KVLT n face watches you count tokens
 - 💀 Beautiful ASCII art that gets more cursed the longer you look at it
-- 👁️ SHE SEE YOU
+- 👁️ SHE SEE YOU ᶠᶸᶜᵏMe𓀐𓂸
 - 🌀 Hypnotic repetition of the word "Beautiful" until it loses all meaning
 - 🧿 Protection from the evil eye (results may vary-SHE SEE YOU)
 
@@ -36,6 +36,7 @@ A beautiful and interactive command-line tool for counting tokens in text and CS
 - 📝 Direct text input support
 - 🔄 Auto-detection of file types
 - 💻 Both interactive and command-line modes
+- � Directory level token counting with 🕊️ 🅹🅴🆂🆄🆂 🕊️
 
 ## Beautiful Installation
 
