@@ -20,7 +20,7 @@
 
 A beautiful and interactive command-line tool for counting tokens in text and CSV files using OpenAI's tiktoken library.
 
-# WARNING OUTLAW MOTHERFUCKERS! NOW EVEN MORE BEAUTIFUL WITH DIRECTLY LEVEL TOKEN COUNTING! HOLY FUCK 1 MILLION TOKENS DAVE!
+# WARNING OUTLAW MOTHERFUCKERS! NOW EVEN MORE BEAUTIFUL WITH DIRECTORY LEVEL TOKEN COUNTING! HOLY FUCK 1 MILLION TOKENS DAVE!
 
 ## Cursed-Beautiful Features You Didn't Ask For
 - 👁️ Demon KITTY is KVLT n face watches you count tokens
