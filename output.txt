@@ -1,0 +1,20 @@
+│ from abc import abstractmethod from concurrent.futures import Future from threading import Thread from typing import Any, Dict, List, Optional, Union            │
+│                                                                                                                                                                  │
+│ from dspy.clients.utils_finetune import DataFormat                                                                                                               │
+│                                                                                                                                                                  │
+│ class TrainingJob(Future): def init( self, thread: Optional[Thread] = None, model: Optional[str] = None, train_data: Optional[List[Dict[str, Any]]] = None,      │
+│ train_kwargs: Optional[Dict[str, Any]] = None, data_format: Optional[DataFormat] = None, ): self.thread = thread self.model = model self.train_data = train_data │
+│ self.train_kwargs = train_kwargs or {} self.data_format = data_format super().init()                                                                             │
+│                                                                                                                                                                  │
+│                                                                                                                                                                  │
+│  # Subclasses should override the cancel method to cancel the job; then call                                                                                     │
+│  # the super's cancel method so that the future can be cancelled.                                                                                                │
+│  def cancel(self):                                                                                                                                               │
+│      super().cancel()                                                                                                                                            │
+│                                                                                                                                                                  │
+│  @abstractmethod                                                                                                                                                 │
+│  def status(self):                                                                                                                                               │
+│      raise NotImplementedError                                                                                                                                   │
+│                                                                                                                                                                  │
+│                                                                                                                                                                  │
+│ class ...

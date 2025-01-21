@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "token-counter"
+version = "0.1.0"
+description = "A beautiful CLI tool for counting tokens in text and CSV files"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "tokens.py"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tiktoken = "^0.5.1"
+rich = "^13.7.0"
+typer = "^0.9.0"
+questionary = "^2.0.1"
+pandas = "^2.1.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+token-counter = "tokens:app"
